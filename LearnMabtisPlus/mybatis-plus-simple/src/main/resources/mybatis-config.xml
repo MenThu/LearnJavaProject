@@ -24,5 +24,6 @@
 
     <mappers>
         <mapper resource="UserMapper.xml"/>
+        <mapper resource="MpUserMapper.xml"/>
     </mappers>
 </configuration>

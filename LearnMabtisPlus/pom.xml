@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>mybatis-plus-simple</module>
+        <module>mybatis-plus-spring</module>
     </modules>
 
     <properties>
@@ -64,9 +65,11 @@
 
     </dependencies>
 
+
     <build>
         <plugins>
             <plugin>
+                <!--maven-compiler-plugin的作用是？-->
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
