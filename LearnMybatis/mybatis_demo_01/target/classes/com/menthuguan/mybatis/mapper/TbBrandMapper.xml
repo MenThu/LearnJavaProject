@@ -4,7 +4,7 @@
 <mapper namespace="com.menthuguan.mybatis.mapper.TbBrandMapper">
     <select id="selectBrandById" resultType="com.menthuguan.mybatis.pojo.Brand">
         select *
-        from tb_brand
+        from brand
         where id = ${brandId}
     </select>
 </mapper>
