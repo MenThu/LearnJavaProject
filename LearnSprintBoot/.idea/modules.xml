@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/LearnSprintBoot.iml" filepath="$PROJECT_DIR$/LearnSprintBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_02_base_configuration/src/main/main.iml" filepath="$PROJECT_DIR$/springboot_02_base_configuration/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_01/springboot_01.iml" filepath="$PROJECT_DIR$/springboot_01/springboot_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_02_base_configuration/springboot_02_base_configuration.iml" filepath="$PROJECT_DIR$/springboot_02_base_configuration/springboot_02_base_configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_02_base_configuration/src/test/test.iml" filepath="$PROJECT_DIR$/springboot_02_base_configuration/src/test/test.iml" />
     </modules>
   </component>
 </project>
