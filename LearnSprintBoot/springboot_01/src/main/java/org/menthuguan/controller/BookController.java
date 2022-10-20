@@ -9,6 +9,7 @@ public class BookController {
 
     @GetMapping
     public String getById(){
+
         String data = "menthuguan springboot learning";
         System.out.print(data);
         return data;

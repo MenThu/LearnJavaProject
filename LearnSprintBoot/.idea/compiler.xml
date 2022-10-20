@@ -2,21 +2,27 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot_02_base_configuration" />
+        <module name="springboot_ssm" />
         <module name="springboot_01" />
+        <module name="springboot_02_base_configuration" />
+        <module name="spring_03_mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring_03_mybatis" target="1.8" />
       <module name="springboot_01" target="1.8" />
       <module name="springboot_02_base_configuration" target="1.8" />
+      <module name="springboot_ssm" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring_03_mybatis" options="-parameters" />
       <module name="springboot_01" options="-parameters" />
       <module name="springboot_02_base_configuration" options="-parameters" />
     </option>
